@@ -1,4 +1,4 @@
-﻿# Python virtual environments
+# Python virtual environments
 venv/
 venv_pfa/
 venv_broken/
@@ -44,3 +44,9 @@ image_cache/
 faiss_output/
 output/
 logos/
+
+# Environment variables / secrets - NEVER commit these
+.env
+*.env
+.env.local
+.env.production
